@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="320" viewBox="0 0 500 320">
+  <style>
+    @keyframes wave1 {
+      0%, 100% { opacity: 1; }
+      25%, 75% { opacity: 0; }
+    }
+    @keyframes wave2 {
+      0%, 100% { opacity: 0; }
+      20%, 30% { opacity: 1; }
+    }
+    @keyframes wave3 {
+      0%, 100% { opacity: 0; }
+      45%, 55% { opacity: 1; }
+    }
+    @keyframes wave4 {
+      0%, 100% { opacity: 0; }
+      70%, 80% { opacity: 1; }
+    }
+    .frame1 { animation: wave1 3s ease-in-out infinite; }
+    .frame2 { animation: wave2 3s ease-in-out infinite; }
+    .frame3 { animation: wave3 3s ease-in-out infinite; }
+    .frame4 { animation: wave4 3s ease-in-out infinite; }
+    text {
+      font-family: 'Courier New', monospace;
+      font-size: 14px;
+      fill: #c9d1d9;
+    }
+    rect {
+      fill: #0d1117;
+      rx: 12;
+      ry: 12;
+    }
+  </style>
+
+  <rect width="500" height="320" />
+
+  <!-- Frame 1: Otter with paws together -->
+  <g class="frame1">
+    <text x="30" y="40">        .--""""--.</text>
+    <text x="30" y="58">       /  .-. .-.  \</text>
+    <text x="30" y="76">      |  ( o | o )  |</text>
+    <text x="30" y="94">      |   \  ^  /   |</text>
+    <text x="30" y="112">       \  '-----'  /</text>
+    <text x="30" y="130">        '-.-''''-.-'</text>
+    <text x="30" y="148">         /  {   }  \</text>
+    <text x="30" y="166">        |  { paw }  |</text>
+    <text x="30" y="184">         \  {   }  /</text>
+    <text x="30" y="202">    ~~\~~~`'-----'`~~~~/~~</text>
+    <text x="30" y="220">   ~~~\~~~~~~~~~~~~~~~~/~~~</text>
+    <text x="30" y="238">   ~~~~\~~~~~~~~~~~~~~/~~~~</text>
+    <text x="30" y="256">    ~~~~~~~~~~~~~~~~~~~~</text>
+    <text x="30" y="274">      ~~~~~~~~~~~~~~~~</text>
+    <text x="30" y="292">        ~~~~~~~~~~~~</text>
+  </g>
+
+  <!-- Frame 2: Otter waving right paw -->
+  <g class="frame2">
+    <text x="30" y="40">        .--""""--.</text>
+    <text x="30" y="58">       /  .-. .-.  \</text>
+    <text x="30" y="76">      |  ( o | o )  |</text>
+    <text x="30" y="94">      |   \  ^  /   |</text>
+    <text x="30" y="112">       \  '-----'  /</text>
+    <text x="30" y="130">        '-.-''''-.-'</text>
+    <text x="30" y="148">         /  \ | /o/</text>
+    <text x="30" y="166">        |    \|/ /</text>
+    <text x="30" y="184">         \      /</text>
+    <text x="30" y="202">   ~~\~~~~'----'~~~~~./~~</text>
+    <text x="30" y="220">   ~~~\~~~~~~~~~~~~~~~/~~~</text>
+    <text x="30" y="238">    ~~~\~~~~~~~~~~~~~~/~~~</text>
+    <text x="30" y="256">     ~~~~~~~~~~~~~~~~~~~~</text>
+    <text x="30" y="274">       ~~~~~~~~~~~~~~~~</text>
+    <text x="30" y="292">         ~~~~~~~~~~~~</text>
+  </g>
+
+  <!-- Frame 3: Otter with paws up -->
+  <g class="frame3">
+    <text x="30" y="40">        .--""""--.</text>
+    <text x="30" y="58">       /  .-. .-.  \</text>
+    <text x="30" y="76">      |  ( ^ | ^ )  |</text>
+    <text x="30" y="94">      |   \  w  /   |</text>
+    <text x="30" y="112">       \  '-----'  /</text>
+    <text x="30" y="130">      o\'-.-''''-.-'/o</text>
+    <text x="30" y="148">      o/ /        \ \o</text>
+    <text x="30" y="166">       |/          \|</text>
+    <text x="30" y="184">        \          /</text>
+    <text x="30" y="202">   ~~\~~~`'------'`~~~~/~~</text>
+    <text x="30" y="220">    ~~\~~~~~~~~~~~~~~~~/~~</text>
+    <text x="30" y="238">    ~~~\~~~~~~~~~~~~~~/~~~</text>
+    <text x="30" y="256">     ~~~~~~~~~~~~~~~~~~~~</text>
+    <text x="30" y="274">       ~~~~~~~~~~~~~~~~</text>
+    <text x="30" y="292">         ~~~~~~~~~~~~</text>
+  </g>
+
+  <!-- Frame 4: Otter waving left paw -->
+  <g class="frame4">
+    <text x="30" y="40">        .--""""--.</text>
+    <text x="30" y="58">       /  .-. .-.  \</text>
+    <text x="30" y="76">      |  ( o | o )  |</text>
+    <text x="30" y="94">      |   \  ^  /   |</text>
+    <text x="30" y="112">       \  '-----'  /</text>
+    <text x="30" y="130">        '-.-''''-.-'</text>
+    <text x="30" y="148">       \o\ | /  \</text>
+    <text x="30" y="166">        \ \|/    |</text>
+    <text x="30" y="184">         \      /</text>
+    <text x="30" y="202">   ~~\.~~~~~'----'~~~~~/~~</text>
+    <text x="30" y="220">   ~~~\~~~~~~~~~~~~~~~/~~~</text>
+    <text x="30" y="238">    ~~~\~~~~~~~~~~~~~~/~~~</text>
+    <text x="30" y="256">     ~~~~~~~~~~~~~~~~~~~~</text>
+    <text x="30" y="274">       ~~~~~~~~~~~~~~~~</text>
+    <text x="30" y="292">         ~~~~~~~~~~~~</text>
+  </g>
+</svg>
